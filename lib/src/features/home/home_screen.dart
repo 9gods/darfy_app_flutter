@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../providers.dart';
-import 'widgets/nota_tile.dart';
+import 'widgets/invoice_tile.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
