@@ -15,7 +15,7 @@ class OnboardingScreen extends StatelessWidget {
           skip: const Text('Pular'),
           next: const Icon(CupertinoIcons.right_chevron),
           done: const Text('Entrar'),
-          onDone: () => context.go('/home'),
+          onDone: () => context.go('/login'),
           pages: [
             PageViewModel(
               title: 'Bem‑vindo ao Darfy',
